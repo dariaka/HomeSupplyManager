@@ -1,0 +1,20 @@
+{
+    "extends": ["react-app", "airbnb", "prettier", "prettier/react"],
+    "env": {
+        "jest": true,
+        "browser": true
+    },
+    "rules": {
+        "no-tabs": ["error", { "allowIndentationTabs": true }],
+        "react/jsx-indent": [2, 4],
+        "react/jsx-filename-extension": [1, { "extensions": [".js"] }]
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx"],
+                "moduleDirectory": ["node_modules", "src"]
+            }
+        }
+    }
+}
