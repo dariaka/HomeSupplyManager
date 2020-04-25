@@ -1,4 +1,4 @@
-export default {
+export const theme = {
     yellow: '#EDA626',
     blue: '#5668AF',
     red: '#ED284F',
@@ -7,4 +7,20 @@ export default {
     light: 200,
     regular: 400,
     bold: 800,
+    fontSize: {
+        xxs: '1rem',
+        xs: '1.2rem',
+        s: '1.6rem',
+        m: '1.8rem',
+        l: '2.4rem',
+        xl: '4.8rem',
+        xxl: '6.4rem',
+    },
+    iconSize: {
+        xs: '20px',
+        s: '30px',
+        m: '40px',
+        l: '50px',
+        xl: '60px',
+    },
 };
