@@ -6,9 +6,5 @@ export default {
     component: Button,
 };
 
-export const primary = () => <Button onClick={() => console.log('click')}>Hello Button</Button>;
-export const secondary = () => (
-    <Button secondary onClick={() => console.log('click')}>
-        Hello Button
-    </Button>
-);
+export const primary = () => <Button>Hello Button</Button>;
+export const secondary = () => <Button>Hello Button</Button>;
