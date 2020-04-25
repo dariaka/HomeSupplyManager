@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
 const Button = styled.button`
@@ -15,5 +16,13 @@ const Button = styled.button`
             background-color: ${({ theme }) => theme.grey};
         `}
 `;
+
+Button.propTypes = {
+    color: PropTypes.oneOf(['yellow', 'blue', 'red', 'grey', 'dark']),
+};
+
+Button.defaultProps = {
+    color: 'grey',
+};
 
 export default Button;
